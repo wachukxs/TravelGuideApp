@@ -1,0 +1,25 @@
+{
+  "name": "travelapp",
+  "version": "1.0.0",
+  "description": "An app used to manage people for the wilderness experience being worked on",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olamide1/TravelGuideApp.git"
+  },
+  "keywords": [
+    "Travel",
+    "wilderness",
+    "experience",
+    "collaboration"
+  ],
+  "author": "Connarts NG, Ossai Nwachukwu, Ayoade Adeyemo, Olamide Akomolafe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olamide1/TravelGuideApp/issues"
+  },
+  "homepage": "https://github.com/Olamide1/TravelGuideApp#readme"
+}
