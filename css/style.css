@@ -1,15 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 #myHeader {
-    background-color:black;
+    background-color:rebeccapurple;
     color:white;
     padding: 40px;
     text-align: center;
     text-family: verdana;
-    text-size:200%;
-=======
-.container { 
-=======
+    text-size:200%;} 
 .jumbotron { 
 >>>>>>> 3596c2d6d0aedec5c57e85dd4176d2d2be34da9b
     background-color:#99CCFF;
@@ -64,13 +61,4 @@
 <<<<<<< HEAD
 >>>>>>> 3fbab9c5efc23a81d8ceb995c97e19dd6d742de8
 =======
-}
-#myHeader {
-    background-color:black;
-    color:white;
-    padding: 40px;
-    text-align: center;
-    font-family: verdana;
-    font-size:20%;
->>>>>>> 3596c2d6d0aedec5c57e85dd4176d2d2be34da9b
 }
