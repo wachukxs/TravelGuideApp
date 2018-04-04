@@ -1,5 +1,5 @@
 .jumbotron { 
-    background-color:#99CCFF;
+    background-color:#2d2d30;
     color: #ffffff;
     padding: 80px 120px;
     height: 250px;
@@ -75,4 +75,14 @@ footer a {
 footer a:hover {
     color: #777;
     text-decoration: none;
+}
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
 }
