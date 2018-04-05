@@ -6577,6 +6577,10 @@ button.close {
     display: none !important;
   }
 }
+
+.panel-heading{
+    background-color:  #2d2d30;
+}
 /*# sourceMappingURL=bootstrap.css.map */
 
-
+c
