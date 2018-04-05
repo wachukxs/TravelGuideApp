@@ -6577,9 +6577,11 @@ button.close {
     display: none !important;
   }
 }
+}
 
 .panel-heading{
-    background-color:  #2d2d30;
+    background-color: black;
+    
 }
 /*# sourceMappingURL=bootstrap.css.map */
 

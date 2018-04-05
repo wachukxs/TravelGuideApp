@@ -92,5 +92,9 @@ footer a:hover {
 }
 
 .panel-heading{
-    background-color:#2d2d30;
+    background-color:#2d2d30 !important;
+}
+.form-horizontal{
+    width: 100% !important;
+    align-content: center !important;
 }
