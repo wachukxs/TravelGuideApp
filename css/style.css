@@ -94,7 +94,12 @@ footer a:hover {
 .panel-heading{
     background-color:#2d2d30 !important;
 }
+<<<<<<< HEAD
 .form-horizontal{
     width: 100% !important;
     align-content: center !important;
+=======
+.nav-tabs {
+    color: black !important;
+>>>>>>> 893c8297ae34797811568fe65245518a55763ea8
 }
