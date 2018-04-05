@@ -19,12 +19,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">ToursNG</a>
+                <a class="navbar-brand" href="index.html">ToursNG</a>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                
+                        <li class="pull-left">
+                            <a>Contact Us</a>
+                        </li>
+                        <li class="pull-left">
+                            <a class="btn" data-toggle="modal" data-target="#myModal"> Book</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="pull-left">
-                        <a href="">Book</a>
+                        <a data-toggle="modal" data-target="#myModal">Book</a>
                     </li>
                     <li>
                         <a href="#">
@@ -54,12 +65,53 @@
             </div>  
             </div>    
         </div>
-    </nav> <br><br><br><br>
+    </nav> <br><br>
 </nav>
-<br>
-<br>
-<br>
-<br>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4>
+                    <span class="glyphicon glyphicon-lock"></span> Book Now</h4>
+            </div>
+            <div class="modal-body">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="psw">
+                            <span></span> At &#8358;30,000 per person</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="usrname">
+                            <span class="glyphicon glyphicon-user"></span> Email</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="usrname">
+                            <span class="glyphicon glyphicon-user"></span> Phone Number</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter number">
+                    </div>
+                    <button class="btn btn-block">Book
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove"></span> Cancel
+                </button>
+                <p>Need
+                    <a href="#">help?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <h2 align="center"> What you get</h2> <hr>
 <div align="center" >
     <p> For two days You get: </p>
@@ -78,22 +130,37 @@
 
 <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-        <h3>Couples</h3>
-                <h3>Individuals: 3000</h3>
-                <h3>Families-on Demand</h3>
+        <div class="jumbotron hey">
+            <h5>Couples: Estimate On Demand</h5>
+            <h5>Individuals: &#8358;30,000</h5>
+            <h5>Students: &#8358;35,000 per pupil including feeding</h5>
+            <h5>Families: Estimate on Demand</h5>
+        </div>
+                
         
     </div>
     <div id="menu1" class="tab-pane fade">
-        <h3>Use of Chalets</h3>
-                <h3>Lodges</h3>
+        <div class="jumbotron hey">
+            <h3>Use of Chalets</h3>
+            <h3>Lodges</h3>
+        </div>
     </div>
     <div id="menu2" class="tab-pane fade">
-        <h3>Safaris</h3>
-                <h3>Free swimming at the warm spring</h3>
-                <h3>Museam Visit</h3>
-                <h3>Games</h3>
-                <h3>Goat meat barbeque (Would attract an extra fee of 1000 naira)</h3>
+        <div class="jumbotron hey">
+            <h5>Safaris</h5>
+            <h5>Free swimming at the warm spring</h5>
+            <h5>Museam Visit</h5>
+            <h5>Games</h5>
+            <h5>Goat meat barbeque (Would attract an extra fee of 10,000 naira)</h5>
+           
+        </div>            
     </div>
 </div>
+<footer class="text-center">
+    <br>
+    <p>Made with &hearts; by
+        <a href="https://www.connarts.com.ng" target="blank" title="Visit Connarts">Connart NG</a>
+    </p>
+</footer>
 </body>
 </html> 
