@@ -92,5 +92,8 @@ footer a:hover {
 }
 
 .panel-heading{
-    background-color:#2d2d30;
+    background-color:#2d2d30 !important;
+}
+.nav-tabs {
+    color: black !important;
 }
