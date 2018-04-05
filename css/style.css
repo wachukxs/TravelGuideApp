@@ -1,5 +1,19 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+#myHeader {
+    background-color:rebeccapurple;
+    color:white;
+    padding: 40px;
+    text-align: center;
+    text-family: verdana;
+    text-size:200%;} 
 .jumbotron { 
+<<<<<<< HEAD
+>>>>>>> 3596c2d6d0aedec5c57e85dd4176d2d2be34da9b
+    background-color:#99CCFF;
+=======
     background-color:#2d2d30;
+>>>>>>> e1d299cf9b7ebbd3e5ce020c8d78d08efb8e7c2b
     color: #ffffff;
     padding: 80px 120px;
     height: 250px;
@@ -53,7 +67,12 @@ h2 {
 /* On hover, the dropdown links will turn red */
 .dropdown-menu li a:hover {
     background-color: red !important;
+<<<<<<< HEAD
+>>>>>>> 3fbab9c5efc23a81d8ceb995c97e19dd6d742de8
+=======
 }
+<<<<<<< HEAD
+=======
 #myHeader {
     background-color:black;
     color:white;
@@ -76,6 +95,9 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
+<<<<<<< HEAD
+>>>>>>> cdff1d029a91663f2fa8b3adf1283414319a5e3d
+=======
 .modal-header, h4, .close {
     background-color: #333;
     color: #fff !important;
@@ -86,3 +108,4 @@ footer a:hover {
 .modal-header, .modal-body {
     padding: 40px 50px;
 }
+>>>>>>> e1d299cf9b7ebbd3e5ce020c8d78d08efb8e7c2b
