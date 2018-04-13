@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Info| ToursNG</title>
+<title>Booked | ToursNG</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
     <script src="js/jquery.min.js"></script>
@@ -13,7 +13,7 @@
 <body class="container-fluid">
 
 <?php 
-$con = mysqli_connect("localhost","ossai","ossai","touring");
+$con = mysqli_connect("localhost","connarts_ossai","ossai'spassword","connarts_tours");
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
@@ -21,13 +21,7 @@ $nok = $_POST['nok'];
 $nokphone = $_POST['nokphone'];
 $address = $_POST['address'];
 if ( isset($_POST['bookbtn']) ) {
-    if ($name == '' || $email == '' || $phone == '' || $nok == '' || $nokphone == '' || $address == '') {
-        echo '<script type="text/javascript">
-        alert ("Fill in Complete Data Please")
-        </script>';
-        header('Location: index.html');
-    } else {
-      $query =  mysqli_query($con, "INSERT INTO details (name, email, phone, nok, nokphone, address) VALUES ($name, $email,$phone, $nok, $nokphone, $address)");
+      $query =  mysqli_query($con, "INSERT INTO details (name, email, phone, nok, nokphone, address) VALUES ('$name', '$email','$phone', '$nok', '$nokphone', '$address')");
       if ($query) {
           echo '<nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -58,7 +52,8 @@ if ( isset($_POST['bookbtn']) ) {
         <a href="index.html" class="btn btn-block btn-default">GO back</a>
     </div>';
       }
-    }
+    
 }
 ?>
 </body>
+</html>
